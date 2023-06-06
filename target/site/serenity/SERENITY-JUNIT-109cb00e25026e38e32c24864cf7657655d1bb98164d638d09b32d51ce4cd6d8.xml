@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="com.bestbuy.bestbuyinfo.CreateStoreDataDrivenTest" skipped="0" tests="100" time="207.36" timestamp="2023-06-05T21:20:42.039+01:00[Europe/London]"><testcase classname="com.bestbuy.bestbuyinfo.CreateStoreDataDrivenTest" name="Data Driven Test for adding multiple students to the application"/></testsuite>

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Stores CURD test","Creating a store","SUCCESS","2023-06-05T21:20:45.511+01:00[Europe/London]","0.0","0.22"
+"Stores CURD test","Verify that store is added or not","SUCCESS","2023-06-05T21:20:45.728+01:00[Europe/London]","0.0","0.05"
+"Stores CURD test","Updating store information","SUCCESS","2023-06-05T21:20:45.775+01:00[Europe/London]","0.0","0.15"
+"Stores CURD test","Deleting store and verifying that store is deleted","SUCCESS","2023-06-05T21:20:45.927+01:00[Europe/London]","0.0","0.14"

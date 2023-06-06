@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="49" tests="100" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2022.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ACER\IdeaProjects\wk-18-bestbuy-serenity-restassured-project_jimesh"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\ACER\IdeaProjects\wk-18-bestbuy-serenity-restassured-project_jimesh"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ACER\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.9.1\bin;C:\Program Files\nodejs\;C:\Users\ACER\AppData\Local\Microsoft\WindowsApps;C:\Users\ACER\AppData\Roaming\npm;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ACER"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ACER"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="createMultipleProducts[8]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="11.403"/>
+  <testcase name="createMultipleProducts[2]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="11.473"/>
+  <testcase name="createMultipleProducts[3]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.111"/>
+  <testcase name="createMultipleProducts[5]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.155"/>
+  <testcase name="createMultipleProducts[9]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.242"/>
+  <testcase name="createMultipleProducts[7]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.153"/>
+  <testcase name="createMultipleProducts[4]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.137"/>
+  <testcase name="createMultipleProducts[10]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.102"/>
+  <testcase name="createMultipleProducts[15]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.109"/>
+  <testcase name="createMultipleProducts[13]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.129"/>
+  <testcase name="createMultipleProducts[14]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.15"/>
+  <testcase name="createMultipleProducts[1]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.155"/>
+  <testcase name="createMultipleProducts[11]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.1"/>
+  <testcase name="createMultipleProducts[12]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.107"/>
+  <testcase name="createMultipleProducts[6]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.104"/>
+  <testcase name="createMultipleProducts[0]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.178"/>
+  <testcase name="createMultipleProducts[16]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.091"/>
+  <testcase name="createMultipleProducts[17]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.154"/>
+  <testcase name="createMultipleProducts[18]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.178"/>
+  <testcase name="createMultipleProducts[19]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.091"/>
+  <testcase name="createMultipleProducts[20]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.105"/>
+  <testcase name="createMultipleProducts[21]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.099"/>
+  <testcase name="createMultipleProducts[22]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.138"/>
+  <testcase name="createMultipleProducts[23]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.139"/>
+  <testcase name="createMultipleProducts[24]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.277"/>
+  <testcase name="createMultipleProducts[25]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.259"/>
+  <testcase name="createMultipleProducts[26]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.174"/>
+  <testcase name="createMultipleProducts[27]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.121"/>
+  <testcase name="createMultipleProducts[28]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.296"/>
+  <testcase name="createMultipleProducts[29]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.222"/>
+  <testcase name="createMultipleProducts[30]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.126"/>
+  <testcase name="createMultipleProducts[31]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.211"/>
+  <testcase name="createMultipleProducts[32]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.163"/>
+  <testcase name="createMultipleProducts[33]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.151"/>
+  <testcase name="createMultipleProducts[34]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.252"/>
+  <testcase name="createMultipleProducts[35]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.137"/>
+  <testcase name="createMultipleProducts[36]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.147"/>
+  <testcase name="createMultipleProducts[37]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.173"/>
+  <testcase name="createMultipleProducts[38]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.167"/>
+  <testcase name="createMultipleProducts[39]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.182"/>
+  <testcase name="createMultipleProducts[40]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.128"/>
+  <testcase name="createMultipleProducts[41]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.065"/>
+  <testcase name="createMultipleProducts[42]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.152"/>
+  <testcase name="createMultipleProducts[43]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.207"/>
+  <testcase name="createMultipleProducts[44]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.173"/>
+  <testcase name="createMultipleProducts[45]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.404"/>
+  <testcase name="createMultipleProducts[46]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.104"/>
+  <testcase name="createMultipleProducts[47]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.107"/>
+  <testcase name="createMultipleProducts[48]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.253"/>
+  <testcase name="createMultipleProducts[49]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.118"/>
+  <testcase name="createMultipleProducts[50]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.114"/>
+  <testcase name="createMultipleProducts[51]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.147"/>
+  <testcase name="createMultipleProducts[52]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.12"/>
+  <testcase name="createMultipleProducts[53]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.122"/>
+  <testcase name="createMultipleProducts[54]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.274"/>
+  <testcase name="createMultipleProducts[55]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.104"/>
+  <testcase name="createMultipleProducts[56]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.11"/>
+  <testcase name="createMultipleProducts[57]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.139"/>
+  <testcase name="createMultipleProducts[58]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.136"/>
+  <testcase name="createMultipleProducts[59]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.107"/>
+  <testcase name="createMultipleProducts[60]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.188"/>
+  <testcase name="createMultipleProducts[61]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.144"/>
+  <testcase name="createMultipleProducts[62]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.086"/>
+  <testcase name="createMultipleProducts[63]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.078"/>
+  <testcase name="createMultipleProducts[64]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.096"/>
+  <testcase name="createMultipleProducts[65]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.1"/>
+  <testcase name="createMultipleProducts[66]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.124"/>
+  <testcase name="createMultipleProducts[67]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.138"/>
+  <testcase name="createMultipleProducts[68]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.594"/>
+  <testcase name="createMultipleProducts[69]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.381"/>
+  <testcase name="createMultipleProducts[70]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.582"/>
+  <testcase name="createMultipleProducts[71]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.374"/>
+  <testcase name="createMultipleProducts[72]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.123"/>
+  <testcase name="createMultipleProducts[73]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.397"/>
+  <testcase name="createMultipleProducts[74]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.431"/>
+  <testcase name="createMultipleProducts[75]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.221"/>
+  <testcase name="createMultipleProducts[76]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.155"/>
+  <testcase name="createMultipleProducts[77]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.116"/>
+  <testcase name="createMultipleProducts[78]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.191"/>
+  <testcase name="createMultipleProducts[79]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.092"/>
+  <testcase name="createMultipleProducts[80]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.122"/>
+  <testcase name="createMultipleProducts[81]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.227"/>
+  <testcase name="createMultipleProducts[82]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.088"/>
+  <testcase name="createMultipleProducts[83]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.073"/>
+  <testcase name="createMultipleProducts[84]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.091"/>
+  <testcase name="createMultipleProducts[85]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.178"/>
+  <testcase name="createMultipleProducts[86]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.268"/>
+  <testcase name="createMultipleProducts[87]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.356"/>
+  <testcase name="createMultipleProducts[88]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.445"/>
+  <testcase name="createMultipleProducts[89]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.519"/>
+  <testcase name="createMultipleProducts[90]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.609"/>
+  <testcase name="createMultipleProducts[91]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.711"/>
+  <testcase name="createMultipleProducts[92]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.796"/>
+  <testcase name="createMultipleProducts[93]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.862"/>
+  <testcase name="createMultipleProducts[94]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="0.952"/>
+  <testcase name="createMultipleProducts[95]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="1.043"/>
+  <testcase name="createMultipleProducts[96]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="1.13"/>
+  <testcase name="createMultipleProducts[97]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="1.238"/>
+  <testcase name="createMultipleProducts[98]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="1.327"/>
+  <testcase name="createMultipleProducts[99]" classname="com.bestbuy.bestbuyinfo.CreateProductDataDrivenTest" time="1.409"/>
+</testsuite>
